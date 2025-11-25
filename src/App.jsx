@@ -12,9 +12,9 @@ function App() {
 						</h1>
 						<img
 							alt="Profile Picture"
-							width="200"
-							height="200"
-							class="rounded-full my-4"
+							width="300"
+							height="300"
+							class="rounded-[150px] my-4"
 							src="/profile.jpg"
 						/>
 						<h2 class="text-3xl font-semibold my-6">
@@ -30,25 +30,22 @@ function App() {
 								Profil Personnel
 							</h2>
 							<hr />
-							<p class="my-6 text-left">
-								Ingénieur en informatique
-								passionné par le développement
-								web et l’intelligence
-								artificielle. Curieux, adaptable
-								et motivé, j’aime apprendre de
-								nouvelles technologies et
-								collaborer dans des
-								environnements dynamiques. Je
-								m’investis pleinement pour
-								livrer des solutions efficaces
-								alliant performance et
-								créativité.
+							<p class="mt-6 text-left">
+								Passionné d’informatique et fort
+								de 4 ans d’expérience en
+								développement web full stack, je
+								souhaite faire évoluer ma
+								carrière et suis à la recherche
+								de nouveaux challenges. Curieux
+								et prêt à apprendre, j’aime
+								travailler dans des équipes
+								amicales et dynamiques.
 							</p>
 						</div>
 						{/* Expériences Professionnelle */}
 						<div class="p-8 lg:w-3/5 w-full flex flex-col justify-left items-start">
 							<h2 class="text-xl font-bold uppercase my-2">
-								Expériences Professionnelle
+								Expériences Professionnelles
 							</h2>
 							<hr class="w-full" />
 							<div class="text-left">
@@ -80,14 +77,14 @@ function App() {
 											Développement
 											de modules
 											Python pour
-											ERP & bases de
-											données.
+											ERP et bases
+											de données.
 										</li>
 										<li>
 											Automatisation
 											de tâches et
 											intégration
-											d’IA via
+											d’IA via des
 											scripts
 											Python.
 										</li>
@@ -225,6 +222,7 @@ function App() {
 								</div>
 							</div>
 						</div>
+
 						{/* Compétences Techniques */}
 						<div class="p-8 lg:w-3/5 w-full flex flex-col justify-left items-start">
 							<h2 class="text-xl font-bold uppercase my-2">
@@ -315,17 +313,22 @@ function App() {
 						</div>
 						{/* Download Resume Button */}
 						<div class="p-8 lg:w-3/5 w-full flex flex-col justify-left items-start">
-							<button class="bg-green text-light px-6 py-3 rounded hover:bg-dimgreen transition">
+							<a
+								class="bg-green text-light px-6 py-3 rounded hover:bg-dimgreen transition"
+								href="/CV.pdf"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								Télécharger le CV PDF
-							</button>
+							</a>
 						</div>
 						{/* Footer */}
 						<div class="p-8 lg:w-3/5 w-full flex flex-col justify-left items-start">
 							<p class="text-sm text-green">
-								Fait avec
+								Fait avec du
 								<span class="mx-2">☕</span>,
-								<span class="mx-2">🎧</span>,
-								trop d’onglets ouverts.
+								<span class="mx-2">🎧</span>, et
+								un peu trop d’onglets ouverts.
 							</p>
 						</div>
 					</div>
